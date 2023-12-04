@@ -38,6 +38,7 @@ h1 {
 
 .hero-wrapper {
   margin-top: 110px;
+  margin-bottom: 43px;
   text-align: center;
 }
 
@@ -45,7 +46,7 @@ h1 {
   margin-bottom: 12px;
   font-size: 34px;
   font-style: normal;
-  line-height: 46px; /* 135.294% */
+  line-height: 46px;
 }
 
 .hero-wrapper .hero-text {
@@ -57,4 +58,71 @@ h1 {
   line-height: 30px;
   max-width: 500px;
   margin: 0 auto;
+}
+
+.form {
+  padding-top: 24px;
+  padding-left: 64px;
+  width: 700px;
+  height: 808px;
+  border-radius: 34px;
+  border: 1px solid #eff0f6;
+  background: #faf8f8;
+  box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.form-title {
+  margin-bottom: 6px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+}
+
+.form-info {
+  margin-bottom: 66px;
+  color: #6f6c90;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.input-wrapper {
+  margin-bottom: 48px;
+}
+
+.form-desc {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 111.111% */
+  margin-bottom: 18px;
+}
+
+input {
+  border-radius: 46px;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(19, 18, 66, 0.07);
+  padding: 21px 0 24px 20px;
+}
+
+button {
+  border-radius: 56px;
+  background: linear-gradient(180deg, #9e96f2 0%, #ec31f0 100%);
+  box-shadow: 0px 3px 12px 0px rgba(74, 58, 255, 0.18);
+  padding: 20px 40px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+  cursor: pointer;
 }
